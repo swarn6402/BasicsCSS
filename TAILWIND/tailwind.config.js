@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Segoe UI", "Roboto", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
-}
+};
 
